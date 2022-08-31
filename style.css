@@ -1,0 +1,97 @@
+body {
+    margin: 0%;
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+
+.profile-pic {
+    float: left;
+    padding: 1%;
+    width: 50px;
+    height: 65px;
+    border-radius: 30%;
+    position: relative;
+    left: 20px;
+    top: 12px;
+}
+
+.profile-pic:hover {
+    background-color: rgb(128, 128, 128);
+    opacity: 50%;
+}
+
+.my-name {
+    font-size: 300%;
+    background-color: rgb(184, 184, 184);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 30px;
+}
+
+.home-page {
+    font-family: monospace;
+    position: relative;
+    padding-top: 40px;
+    padding-left: 70px;
+    font-size: 15px;
+}
+
+.nav-bar:active{
+    color: white;
+    background-color: #333333;
+}
+
+.nav-bar {
+    color: black;
+    background-color: #222222;
+    padding: 20px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-family: monospace;
+    display: block;
+    position: sticky;
+}
+
+.nav-bar :hover {
+    background-color: rgb(209, 209, 209);
+    color: black;
+    text-align: center;
+    padding: 15px;
+}
+
+.columns {
+    float: left;
+    width: 33%;
+    padding: 15px;
+    font-family: monospace;
+}
+
+.instagram {
+    height: 1px;
+    width: 1px;
+    font-family: monospace;
+    position: relative;
+    align-self: right;
+}
+
+.facebook {
+    height: 1px;
+    width: 1px;
+    font-family: monospace;
+    position: relative;
+    align-self: center;
+}
+
+.contact-me {
+    background-color: #222222;
+    font-family: monospace;
+    padding: 30px;
+    text-align: center;
+}
+
+.copyright {
+    text-align: right;
+    background-color: #8d8d8d;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
